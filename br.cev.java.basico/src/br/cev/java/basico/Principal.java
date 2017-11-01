@@ -17,6 +17,9 @@ public class Principal {
     public static void main(String[] args) {
         // TODO code application logic here
         OlaMundo.olamundo();
+        HoraSistema.datasistema();
+        IdiomaSistema.mostrarIdioma();
+        ResolucaoTela.mostrarResolucao();
     }
     
 }
