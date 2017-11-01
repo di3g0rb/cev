@@ -14,7 +14,7 @@ import java.awt.Toolkit;
  */
 public class ResolucaoTela {
     
-    public static void mostrarResolucao() {
+    public void mostrarResolucao() {
         Dimension tela = Toolkit.getDefaultToolkit().getScreenSize();
         int lar = (int) tela.getWidth();
         int alt = (int) tela.getHeight();

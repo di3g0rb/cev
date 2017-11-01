@@ -17,7 +17,7 @@ import java.util.Locale;
  */
 public class HoraSistema {
     
-    public static void datasistema(){
+    public void datasistema(){
 LocalDateTime agora = LocalDateTime.now();
 DateTimeFormatter formatador = DateTimeFormatter
   .ofLocalizedDateTime(FormatStyle.MEDIUM)

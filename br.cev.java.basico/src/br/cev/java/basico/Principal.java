@@ -16,10 +16,17 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        OlaMundo.olamundo();
-        HoraSistema.datasistema();
-        IdiomaSistema.mostrarIdioma();
-        ResolucaoTela.mostrarResolucao();
+        OlaMundo om = new OlaMundo();
+        om.olamundo();
+        
+        HoraSistema hs = new HoraSistema();
+        hs.datasistema();
+        
+        IdiomaSistema is = new IdiomaSistema();
+        is.mostrarIdioma();
+        
+        ResolucaoTela rt = new ResolucaoTela();
+        rt.mostrarResolucao();
     }
     
 }

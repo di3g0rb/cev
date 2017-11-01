@@ -11,7 +11,7 @@ package br.cev.java.basico;
  */
 public class OlaMundo {
     
-    public static void olamundo() {
+    public void olamundo() {
         int a = 0;
         while (a++ < 10) {
         System.out.println("Ola Mundo!!!");

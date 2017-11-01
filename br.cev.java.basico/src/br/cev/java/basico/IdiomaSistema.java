@@ -12,7 +12,7 @@ import java.util.Locale;
  * @author diego
  */
 public class IdiomaSistema {
-    public static void mostrarIdioma() {
+    public void mostrarIdioma() {
         Locale loc;
         loc = Locale.getDefault();
         System.out.println("O idioma do SO é " + loc.toString());
