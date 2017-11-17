@@ -30,6 +30,9 @@ public class Principal {
         
        ResolucaoTela rt = new ResolucaoTela();
         rt.mostrarResolucao();
+        
+       TiposPrimitivos tp = new TiposPrimitivos();
+       tp.nota();
     }
     
 }
